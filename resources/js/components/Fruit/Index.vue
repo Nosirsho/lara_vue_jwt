@@ -36,7 +36,6 @@ export default {
 
     methods: {
         getFruits() {
-
             API.get('/api/auth/fruits').then(res => {
                     if (res) {
                         this.fruits = res.data.data
